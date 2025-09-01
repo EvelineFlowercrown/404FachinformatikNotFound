@@ -29,7 +29,10 @@
 # Schreibe ein Programm, das eine Textdatei einliest (z.B. "daten.txt").
 # Gib den gesamten Inhalt aus.
 # Zähle, wie viele Zeilen die Datei hat.
-# (Tipp: open(), read(), readlines())
+# Tipps:
+# with open("pfad","r/w/rw",encoding="utf-8":
+# readlines()
+# ../ um vom aktuellen file aus nach oben in der ordnerstruktur zu navigieren.
 
 
 # 5. Verschachtelte Schleifen

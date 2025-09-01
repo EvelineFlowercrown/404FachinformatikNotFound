@@ -10,8 +10,8 @@ import random
 # Schreibe ein Programm, das zwei Zahlen vom Benutzer einliest.
 # Gib aus, welche Zahl größer ist oder ob beide gleich groß sind.
 
-a = input("zahl 1:")
-b = input("zahl 2:")
+a = int(input("zahl 1:"))
+b = int(input("zahl 2:"))
 print(a*(a>b)+b*(b>a))
 
 # 2. Schleifen & Bedingungen

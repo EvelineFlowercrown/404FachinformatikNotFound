@@ -11,6 +11,7 @@ import random
 # 1. Rechnen & Bedingungen
 # Schreibe ein Programm, das zwei Zahlen vom Benutzer einliest.
 # Gib aus, welche Zahl größer ist oder ob beide gleich groß sind.
+# 👉 elif erlaubt Prüfung, wenn die erste if Prüfung False ist.
 
 
 
@@ -25,6 +26,8 @@ import random
 # Lege eine Liste mit beliebigen 5 Zahlen an.
 # Gib die größte Zahl aus.
 # Berechne außerdem die Summe aller Zahlen in der Liste.
+# 👉 max(liste) gibt die größte Zahl zurück.
+# 👉 sum(liste) berechnet die Summe.
 
 
 
@@ -32,6 +35,7 @@ import random
 # Frage den Benutzer wiederholt nach einem Wort.
 # Beende die Eingabe, wenn der Benutzer "stop" schreibt.
 # Speichere alle Wörter in einer Liste und gib sie am Ende aus.
+# 👉 liste.append(x) fügt ein neues Element hinzu.
 
 
 
@@ -39,6 +43,7 @@ import random
 # Schreibe eine Funktion, die prüft, ob eine Zahl eine Primzahl ist.
 # (Primzahl = nur durch 1 und sich selbst teilbar)
 # Teste die Funktion mit mehreren Zahlen.
+# 👉 for i in range(2, n): kann genutzt werden, um Teilbarkeit zu prüfen.
 
 
 
@@ -47,7 +52,8 @@ import random
 # - Der Benutzer soll raten, welche Zahl es ist.
 # - Nach jedem Tipp soll das Programm sagen, ob die Zahl größer oder kleiner ist.
 # - Beende das Spiel, wenn die Zahl erraten wurde.
-
+# 👉 import random bringt Zusatzfunktionen.
+# 👉 random.randint(1,100) gibt eine Zufallszahl zurück.
 
 
 # 7. Bonus – Text-Statistik
@@ -57,4 +63,5 @@ import random
 #   - wie viele Zeichen der Text hat
 #   - wie oft der Buchstabe "e" vorkommt
 # Gib die Ergebnisse aus.
-
+# 👉 len("Text") gibt die Länge zurück.
+# 👉 "Text".count("e") zählt die Häufigkeit von "e".
